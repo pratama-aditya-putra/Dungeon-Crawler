@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2667675143840597050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2667675143840597049}
+  - component: {fileID: 2667675143840597051}
+  - component: {fileID: 2667675143840597048}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2667675143840597049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2667675143840597050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2667675143840597051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2667675143840597050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fa0cfa8910d14ca7d24aaa87345fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSprites: []
+  weaponSprites:
+  - {fileID: 21300000, guid: a203367da14d89641b24dd859e046706, type: 3}
+  - {fileID: 21300000, guid: 3bf05115484b3d740bae5c0002692873, type: 3}
+  - {fileID: 21300000, guid: 3ee1e8d0e16595c4e97049ed4a943c18, type: 3}
+  - {fileID: 21300000, guid: e203eb9a0dd97dd41af03d2c067aac8f, type: 3}
+  - {fileID: 21300000, guid: cdc18135ba6dbf54ab00354e6cd2ae9c, type: 3}
+  - {fileID: 21300000, guid: d341307fa2a39334692111575dea8a38, type: 3}
+  - {fileID: 21300000, guid: 9a29a963bf8b14549949ff0a72fe254b, type: 3}
+  weaponPrices: c80000005e0100009001000058020000ee02000084030000
+  expTable: 0a0000000f0000001900000023000000320000003c00000050000000640000007800000096000000
+  inventory: {fileID: 0}
+  player: {fileID: 0}
+  weapon: {fileID: 0}
+  deathMenuAnim: {fileID: 0}
+  floatingTextManager: {fileID: 0}
+  hitPointBar: {fileID: 0}
+  manaPointBar: {fileID: 0}
+  hud: {fileID: 0}
+  menu: {fileID: 0}
+  transition: {fileID: 0}
+  pauseButton: {fileID: 0}
+  alive: 0
+  deadEnemies: 
+  collectedItems: 
+  peso: 15
+  experience: 0
+--- !u!114 &2667675143840597048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2667675143840597050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d45ef9d2cdd764f9f9f5d37ba21cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
